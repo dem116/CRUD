@@ -3,7 +3,7 @@ POST http://localhost:3000/usuarios
 Content-Type: application/json
 
 {
-  "nombre": "Doll",
-  "edad": 33,
+  "nombre": "Chun-Li",
+  "edad": 53,
   "lugarProcedencia": "China"
 }
