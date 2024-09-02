@@ -1,0 +1,9 @@
+//REST Client
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+  "nombre": "Doll",
+  "edad": 33,
+  "lugarProcedencia": "China"
+}

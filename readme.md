@@ -10,15 +10,15 @@ En este ejercicio, se te pide crear una API simple para realizar operaciones CRU
    - npm install
 
 2. **Endpoints Disponibles:**
-   - `GET /usuarios`: Obtiene la lista de todos los usuarios.
-   - `POST /usuarios`: Crea un nuevo usuario.
-   - `GET /usuarios/:nombre`: Obtiene un usuario por nombre.
-
+   - `GET /usuarios`: Obtiene la lista de todos los usuarios. CHECK
+   - `POST /usuarios`: Crea un nuevo usuario. CHECK
+   - `GET /usuarios/:nombre`: Obtiene un usuario por nombre. CHECK
+n
 Puedes añadir más rutas si las necesitas o piensas que te pueden servir para hacer algo
 
 3. **Realizar Operaciones CRUD:**
-   - Utiliza herramientas como Postman o cURL para realizar operaciones CRUD en la API.
-   - Ejemplo: Para acceder al usuario Ryu, realiza una solicitud `GET` a `http://localhost:3000/usuarios/Ryu`.
+   - Utiliza herramientas como Postman o cURL para realizar operaciones CRUD en la API. CHECK
+   - Ejemplo: Para acceder al usuario Ryu, realiza una solicitud `GET` a `http://localhost:3000/usuarios/Ryu`. CHECK
 
 **Añade a tu código**
 - Añade estas 2 líneas en `app.js` por encima de todas tus rutas para que no te generen errores de lectura. 
